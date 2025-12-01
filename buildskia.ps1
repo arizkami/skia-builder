@@ -21,7 +21,7 @@ if (-not $BASE) { $BASE = Get-Location }
 
 # --- Configuration ---
 $VS_EDITION = "community" # Options: community, professional, enterprise
-$VS_VERSION = "17"        # VS 2022
+$VS_VERSION = "18"        # VS 2026
 $VS_INSTALLER_URL = "https://aka.ms/vs/$VS_VERSION/release/vs_$VS_EDITION.exe"
 
 $ARIA2_URL = "https://github.com/aria2/aria2/releases/download/release-1.37.0/aria2-1.37.0-win-64bit-build1.zip"
